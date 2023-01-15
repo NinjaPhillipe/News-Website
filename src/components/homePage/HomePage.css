@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .readMoreButton {
+    @apply font-inter-bold text-sm tracking-0.2 uppercase text-white bg-soft-red px-6 py-3 hover:bg-gray-800;
+  }
+  .listTitle {
+    @apply font-inter-extrabold text-3xl text-soft-orange pt-4;
+  }
+}

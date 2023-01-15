@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@layer components {
+  .App {
+    @apply mx-4 md:mx-auto md:w-10/12;
+  }
+}

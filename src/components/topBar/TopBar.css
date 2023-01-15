@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .topBar-field {
+    @apply hover:text-soft-orange ml-3 hidden sm:flex;
+  }
+  .topBar-menu {
+    @apply absolute flex flex-col ml-4;
+  }
+
+}
